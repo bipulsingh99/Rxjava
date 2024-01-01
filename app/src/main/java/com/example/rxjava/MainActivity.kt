@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
                 emitter.onNext(10)
                 emitter.onNext(20)
                 emitter.onNext(30)
+                emiiter.onNext(40)
 //                emitter.onError(Throwable("sdf"))
                 emitter.onComplete()
             }
